@@ -1,0 +1,74 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      1774,         64]
+NotebookOptionsPosition[      1538,         51]
+NotebookOutlinePosition[      1878,         66]
+CellTagsIndexPosition[      1835,         63]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[{
+ RowBox[{"Interpolation", "[", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"20", ",", "2890"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"30", ",", "900"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"40", ",", "270"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"50", ",", "81"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"60", ",", "33"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"70", ",", " ", "13"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"80", ",", " ", "5.3"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"90", ",", " ", "2.2"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"95", ",", "1.5`"}], "}"}]}], "}"}], 
+  "]"}], "\[IndentingNewLine]", 
+ RowBox[{"Plot", "[", 
+  RowBox[{
+   RowBox[{"%", "[", "x", "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"x", ",", "20", ",", "95"}], "}"}]}], "]"}]}], "Input",
+ CellChangeTimes->{{3.643562781278337*^9, 3.643562789767799*^9}, {
+  3.643562834752556*^9, 3.6435628544721947`*^9}}]
+},
+WindowSize->{808, 585},
+WindowMargins->{{Automatic, 103}, {-116, Automatic}},
+FrontEndVersion->"10.0 for Linux ARM (32-bit) (February 3, 2015)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 976, 29, 69, "Input"]
+}
+]
+*)
+
+(* End of internal cache information *)
+
